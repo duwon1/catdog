@@ -1,7 +1,9 @@
+import os
+
 import torch
 from PIL import Image
-import os
 from torchvision import transforms
+
 from models.cnn_model import CatDogCNN  # 모델 클래스 정의
 
 # GPU 사용 여부 확인

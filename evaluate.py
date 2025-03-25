@@ -1,6 +1,7 @@
 import torch
 from torch.utils.data import DataLoader
 from torchvision import datasets, transforms
+
 from models.cnn_model import CatDogCNN
 
 # 데이터 변환
